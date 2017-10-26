@@ -5,4 +5,6 @@ package com.project.david.mvpbasis.Interfaces;
  */
 
 public interface LoginInteractor {
+    public void ValidateData(String name, String password);
+
 }
